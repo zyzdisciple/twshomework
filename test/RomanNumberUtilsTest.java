@@ -24,43 +24,83 @@ public class RomanNumberUtilsTest {
 
     private Boolean validate;
 
+    private Object sum;
+
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
                 {
-                    "IVX", new RomanNumber[]{RomanNumber.ONE, RomanNumber.FIVE, RomanNumber.TEN}, true
+                        "IVX",
+                        new RomanNumber[]{RomanNumber.ONE, RomanNumber.FIVE, RomanNumber.TEN},
+                        true,
+                        14
                 },
                 {
-                    "IXIIII", new RomanNumber[]{RomanNumber.ONE, RomanNumber.TEN, RomanNumber.ONE, RomanNumber.ONE, RomanNumber.ONE, RomanNumber.ONE,}, false
+                        "IXII",
+                        new RomanNumber[]{RomanNumber.ONE, RomanNumber.TEN, RomanNumber.ONE, RomanNumber.ONE},
+                        true,
+                        11
                 },
                 {
-                    "VV", new RomanNumber[]{RomanNumber.FIVE, RomanNumber.FIVE}, false
+                        "VX",
+                        new RomanNumber[]{RomanNumber.FIVE, RomanNumber.TEN},
+                        true,
+                        15
+
                 },
                 {
-                    " I X II II", new RomanNumber[]{RomanNumber.ONE, RomanNumber.TEN, RomanNumber.ONE, RomanNumber.ONE, RomanNumber.ONE, RomanNumber.ONE,}, false
+                        "VV",
+                        new RomanNumber[]{RomanNumber.FIVE, RomanNumber.FIVE},
+                        false,
+                        null
+
                 },
                 {
-                    null, null, false
+                        " I X II II",
+                        new RomanNumber[]{RomanNumber.ONE, RomanNumber.TEN, RomanNumber.ONE, RomanNumber.ONE, RomanNumber.ONE, RomanNumber.ONE,},
+                        false,
+                        null
                 },
                 {
-                    "  ", null, false
+                        null,
+                        null,
+                        false,
+                        null
+                },
+                {
+                        "  ",
+                        null,
+                        false,
+                        null
                 }
         });
     }
 
-    public RomanNumberUtilsTest(String strNumber, RomanNumber[] rns, boolean validate) {
+    public RomanNumberUtilsTest(String strNumber, RomanNumber[] rns, boolean validate, Object sum) {
         this.rns = rns;
         this.strNumber = strNumber;
         this.validate = validate;
+        this.sum = sum;
     }
 
+    /**
+     * Method: getValue(String romanNumber)
+     */
+    @Test
+    public void testGetValueRomanNumber() throws Exception {
+        if (sum != null) {
+            Assert.assertEquals(sum, RomanNumberUtils.getValue(strNumber));
+        }
+    }
 
     /**
      * Method: getValue(RomanNumber... rns)
      */
     @Test
-    public void testGetValue() throws Exception {
-        //TODO: Test goes here...
+    public void testGetValueRns() throws Exception {
+        if (sum != null) {
+            Assert.assertEquals(sum, RomanNumberUtils.getValue(rns));
+        }
     }
 
     /**

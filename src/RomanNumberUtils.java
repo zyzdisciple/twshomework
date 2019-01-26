@@ -12,6 +12,10 @@ public class RomanNumberUtils {
 
     private RomanNumberUtils(){}
 
+    public static int getValue(String romanNumber) throws NumberFormalErrorException {
+        return getValue(string2Numbers(romanNumber));
+    }
+
     /**
      * 通过传入一串罗马数, 计算相应值.
      * 如果传入数据不符合规则抛出异常
@@ -24,7 +28,47 @@ public class RomanNumberUtils {
             throw new NumberFormalErrorException();
         }
         //数据格式正确, 仅需进行运算
-        return 0;
+        if (rns.length == 1) {
+            return rns[0].getValue();
+        }
+        //这里计算采取二元数组进行处理.
+        RomanNumber[] subtractArray = new RomanNumber[2];
+        //减数
+        Integer temp;
+        int sum = 0;
+        for (int i = 0, L = rns.length; i < L;) {
+            temp = subtract(subtractArray[0], subtractArray[1]);
+            //表示不能相减
+            if (temp == null) {
+                temp = subtractArray[0].getValue();
+                subtractArray[0] = subtractArray[1];
+                subtractArray[1] = i < L - 1 ? rns[i++] : null;
+            } else {
+                subtractArray[0] = rns[i++];
+                subtractArray[1] = i < L - 1 ? rns[i++] : null;
+            }
+            sum += temp;
+        }
+        temp = subtract(subtractArray[0], subtractArray[1]);
+        sum += temp;
+        return sum;
+    }
+
+    /**
+     * 将两个罗马数相减, 如果不能减返回null;
+     * 不能减包括两种情况, 小减大, 或 大数 其值不在小数的 被减数中.
+     * 如果大值不存在, 返回小值的value;
+     *
+     *
+     * @param smaller
+     * @param larger
+     * @return
+     */
+    private static Integer subtract(RomanNumber smaller, RomanNumber larger) {
+        if (larger == null) {
+            return smaller == null ? 0 : smaller.getValue();
+        }
+        return smaller.getSubtractStr().contains(larger.getName()) ? larger.getValue() - smaller.getValue() : null;
     }
 
     /**

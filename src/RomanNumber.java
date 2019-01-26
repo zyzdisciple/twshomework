@@ -5,7 +5,7 @@
  * @author zyzdisciple
  * @date 2019/1/25
  */
-public enum RomanNumber {
+public enum RomanNumber{
 
     ONE("I", 1, 3, "VX"),
     FIVE("V", 5, 1, ""),
