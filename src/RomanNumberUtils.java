@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Pattern;
 
 /**
  * 罗马数相关工具类
@@ -12,6 +11,13 @@ public class RomanNumberUtils {
 
     private RomanNumberUtils(){}
 
+    /**
+     * 将罗马数字符串转换为十进制数
+     *
+     * @param romanNumber
+     * @return
+     * @throws NumberFormalErrorException
+     */
     public static int getValue(String romanNumber) throws NumberFormalErrorException {
         return getValue(string2Numbers(romanNumber));
     }
