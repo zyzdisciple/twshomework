@@ -49,5 +49,4 @@ public class ReadFile {
         }
         return content;
     }
-
 }
