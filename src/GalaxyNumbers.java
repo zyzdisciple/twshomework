@@ -11,16 +11,7 @@ import java.util.stream.Collectors;
  * @author zyzdisciple
  * @date 2019/1/26
  */
-public class GalaxyNumber {
-
-    private RomanNumber romanNumber;
-
-    private String galaxyName;
-
-    private GalaxyNumber(String galaxyName, RomanNumber romanNumber) {
-        this.galaxyName = galaxyName;
-        this.romanNumber = romanNumber;
-    }
+public class GalaxyNumbers {
 
     /**
      * 通过文件内容生成 星际数
@@ -65,8 +56,8 @@ public class GalaxyNumber {
             //要求 is的前一个单词必须存在, 且后一个单词能与 RomanNumber对应上
             if ("is".equals(word.toLowerCase())) {
                 if (i == 0
-                    || i == L - 1
-                    || (rn = RomanNumber.getInstance(words.get(i + 1).toUpperCase())) == null) {
+                        || i == L - 1
+                        || (rn = RomanNumber.getInstance(words.get(i + 1).toUpperCase())) == null) {
                     continue;
                 } else {
                     return new GalaxyNumber(words.get(i - 1), rn);
@@ -78,19 +69,39 @@ public class GalaxyNumber {
         return null;
     }
 
-    public RomanNumber getRomanNumber() {
-        return romanNumber;
+
+    /**
+     * 星际数实体类
+     */
+    static class GalaxyNumber {
+
+        private RomanNumber romanNumber;
+
+        private String galaxyName;
+
+        GalaxyNumber(String galaxyName, RomanNumber romanNumber) {
+            this.galaxyName = galaxyName;
+            this.romanNumber = romanNumber;
+        }
+
+
+
+        public RomanNumber getRomanNumber() {
+            return romanNumber;
+        }
+
+        public void setRomanNumber(RomanNumber romanNumber) {
+            this.romanNumber = romanNumber;
+        }
+
+        public String getGalaxyName() {
+            return galaxyName;
+        }
+
+        public void setGalaxyName(String galaxyName) {
+            this.galaxyName = galaxyName;
+        }
     }
 
-    public void setRomanNumber(RomanNumber romanNumber) {
-        this.romanNumber = romanNumber;
-    }
-
-    public String getGalaxyName() {
-        return galaxyName;
-    }
-
-    public void setGalaxyName(String galaxyName) {
-        this.galaxyName = galaxyName;
-    }
 }
+
