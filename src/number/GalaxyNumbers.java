@@ -15,6 +15,8 @@ import java.util.stream.Collectors;
  * 无论通过何种方式添加星际数, 都需要将其指向统一引用, 与罗马数类似,
  * 将来需要为数添加更多功能就可以定义在实体类中
  *
+ * 定义语句格式为 a is I 这种形式
+ *
  * @author zyzdisciple
  * @date 2019/1/26
  */
@@ -123,9 +125,24 @@ public class GalaxyNumbers {
     }
 
     /**
+     * 将星际数 转换为 十进制数
+     *
+     * @param numbers
+     * @return
+     * @throws NumberFormalErrorException
+     */
+    public static int getValue(List<GalaxyNumber> numbers) throws NumberFormalErrorException {
+        List<RomanNumber> romanNumbers = new ArrayList<>(numbers.size());
+        for (GalaxyNumber number : numbers) {
+            romanNumbers.add(number.getRomanNumber());
+        }
+        return RomanNumberUtils.getValue(romanNumbers.toArray(new RomanNumber[]{}));
+    }
+
+    /**
      * 星际数实体类
      */
-    static class GalaxyNumber {
+    public static class GalaxyNumber {
 
         private RomanNumber romanNumber;
 

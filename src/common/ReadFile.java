@@ -9,9 +9,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Properties;
 
 /**
@@ -63,11 +61,10 @@ public class ReadFile {
      * 读取问答配置模板
      */
     public static List<QAInfo> readQAProperties() {
-        Map<String, Map<String, String>> configMap = new HashMap<>(2);
         Properties pp = new Properties();
         InputStream is = null;
         try {
-            is = new FileInputStream(new File(Global.Q_A_PROPERTIES));
+            is = new FileInputStream(new File("aqconfig.properties"));
             pp.load(is);
         } catch (IOException e) {
             e.printStackTrace();

@@ -13,7 +13,7 @@ import java.util.Map;
  */
 public abstract class QAFunction {
 
-    private QAInfo qa;
+    protected QAInfo qa;
 
     public QAFunction(QAInfo qa) {
         this.qa = qa;
@@ -26,7 +26,7 @@ public abstract class QAFunction {
      * @param line 实际文本
      * @return
      */
-    public Map<String, String> extractQuestionParameters(String line) {
+    protected Map<String, String> extractQuestionParameters(String line) {
         Map<String, String> map = new HashMap<>();
         String question = qa.getQuestion();
         //校验不通过
@@ -74,6 +74,9 @@ public abstract class QAFunction {
                 } else if (extractQaIndex.get(j - 1) == extractQaIndex.get(j)) {
                     //需要连续跳过当前的结束为止, 下一个参数的起始位置
                     j += 2;
+                    //表示已经到字符串末尾
+                } else if (i == L - 1) {
+                    extractLwIndex.add(i);
                 }
             } else {
                 extractLwIndex.add(i);
@@ -131,7 +134,7 @@ public abstract class QAFunction {
      * @param line
      * @return
      */
-    protected boolean validate(String target, String line) {
+    public boolean validate(String target, String line) {
         if (target == null || line == null) {
             return false;
         }
@@ -167,5 +170,26 @@ public abstract class QAFunction {
             }
         }
         return true;
+    }
+
+    /**
+     * 根据答案来填充模板
+     * parameterMap 和 fillMap 的key从数量到值要完全一致
+     * 只要有一条无法填充, 即返回错误信息
+     *
+     * @param parameterMap 可以通过 extractQuestionParameters 获取
+     * @param fillMap 解答之后的参数列表
+     * @return
+     */
+    protected String fillAnswer(Map<String, String> parameterMap, Map<String, String> fillMap) {
+        String answer = qa.getAnswer();
+        for (String key : fillMap.keySet()) {
+            if (fillMap.get(key) == null) {
+                return qa.getDefaultAnswer();
+            }
+            answer = answer.replace("#" + key + "#", parameterMap.get(key));
+            answer = answer.replace("${" + key + "}", fillMap.get(key));
+        }
+        return answer;
     }
 }

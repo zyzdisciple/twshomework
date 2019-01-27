@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c922ef-7284-447a-8812-89a944445d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/Global.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/qa/QACalculateFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/qa/QAConvertFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/qa/QAFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/qa/QAFunctionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/qa/QAInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GalaxyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/GalaxyNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GalaxyUnits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/GalaxyUnits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/aqconfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberFormalErrorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/NumberFormalErrorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomanNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/RomanNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomanNumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/RomanNumberUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/GalaxyNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/number/GalaxyNumbersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/GalaxyUnitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/number/GalaxyUnitsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ReadFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/common/ReadFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/RomanNumberUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/number/RomanNumberUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Global.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number/GalaxyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/GalaxyNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number/GalaxyUnits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/GalaxyUnits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number/RomanNumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/RomanNumberUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qa/QACalculateFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qa/QACalculateFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qa/QAConvertFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qa/QAConvertFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qa/QAFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qa/QAFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/number/RomanNumberUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/number/RomanNumberUtilsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,37 +43,37 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="18365" />
+          <entry key="java" value="20658" />
           <entry key="md" value="142" />
           <entry key="properties" value="431" />
-          <entry key="txt" value="142" />
+          <entry key="txt" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="18365" />
+          <entry key="JAVA" value="20658" />
           <entry key="Markdown" value="142" />
-          <entry key="PLAIN_TEXT" value="142" />
+          <entry key="PLAIN_TEXT" value="175" />
           <entry key="Properties" value="431" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="95" />
+          <entry key="java" value="129" />
           <entry key="md" value="4" />
-          <entry key="properties" value="3" />
-          <entry key="txt" value="3" />
+          <entry key="properties" value="7" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="95" />
+          <entry key="JAVA" value="129" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="3" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Properties" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -89,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="154">
+              <caret line="66" column="66" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#readFile#0;class#ReadFile#0" />
@@ -99,25 +93,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/qa/QAFunction.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/questionsTest.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="88" column="19" lean-forward="true" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+            <state relative-caret-position="-169">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/StringUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="403">
               <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -140,8 +129,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aqconfig.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="264">
+              <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/number/GalaxyNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#generateGalaxyNumber#0;class#GalaxyNumbers#0" />
+                <element signature="method#getGalaxyNumberByDefinition#0;class#GalaxyNumbers#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,15 +201,22 @@
         <option value="$PROJECT_DIR$/src/QAInfo.java" />
         <option value="$PROJECT_DIR$/src/ReadFile.java" />
         <option value="$PROJECT_DIR$/test/ReadFileTest.java" />
-        <option value="$PROJECT_DIR$/src/qa/QAConvertFunction.java" />
         <option value="$PROJECT_DIR$/src/qa/QAFunctionFactory.java" />
         <option value="$PROJECT_DIR$/src/StringUtil.java" />
-        <option value="$PROJECT_DIR$/src/qa/QACalculateFunction.java" />
         <option value="$PROJECT_DIR$/src/qa/QAInfo.java" />
         <option value="$PROJECT_DIR$/src/common/StringUtil.java" />
-        <option value="$PROJECT_DIR$/aqconfig.properties" />
+        <option value="$PROJECT_DIR$/src/qa/QACalculateFunction.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/qa/QAFunction.java" />
+        <option value="$PROJECT_DIR$/src/qa/QAConvertFunction.java" />
+        <option value="$PROJECT_DIR$/test/number/RomanNumberUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/number/RomanNumberUtils.java" />
+        <option value="$PROJECT_DIR$/questionsTest.txt" />
+        <option value="$PROJECT_DIR$/aqconfig.properties" />
+        <option value="$PROJECT_DIR$/src/common/Global.java" />
+        <option value="$PROJECT_DIR$/src/common/ReadFile.java" />
+        <option value="$PROJECT_DIR$/src/number/GalaxyNumbers.java" />
+        <option value="$PROJECT_DIR$/src/number/GalaxyUnits.java" />
       </list>
     </option>
   </component>
@@ -240,29 +250,6 @@
               <item name="thoughtworkshomework" type="b2602c69:ProjectViewProjectNode" />
               <item name="thoughtworkshomework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thoughtworkshomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoughtworkshomework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thoughtworkshomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoughtworkshomework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thoughtworkshomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoughtworkshomework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thoughtworkshomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoughtworkshomework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="number" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thoughtworkshomework" type="b2602c69:ProjectViewProjectNode" />
@@ -357,17 +344,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanNumberUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thoughtworkshomework" />
+      <option name="PACKAGE_NAME" value="number" />
+      <option name="MAIN_CLASS_NAME" value="number.RomanNumberUtilsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.GalaxyNumbersTest" />
       <item itemvalue="JUnit.GalaxyUnitsTest" />
       <item itemvalue="JUnit.ReadFileTest" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.RomanNumberUtilsTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ReadFileTest" />
+        <item itemvalue="JUnit.RomanNumberUtilsTest" />
         <item itemvalue="JUnit.GalaxyUnitsTest" />
+        <item itemvalue="JUnit.ReadFileTest" />
         <item itemvalue="JUnit.GalaxyNumbersTest" />
       </list>
     </recent_temporary>
@@ -389,7 +386,7 @@
       <workItem from="1548488774857" duration="2802000" />
       <workItem from="1548491664066" duration="25051000" />
       <workItem from="1548556720024" duration="23626000" />
-      <workItem from="1548582080725" duration="13217000" />
+      <workItem from="1548582080725" duration="22617000" />
     </task>
     <task id="LOCAL-00001" summary="项目初步分析">
       <created>1548402800939</created>
@@ -447,56 +444,63 @@
       <option name="project" value="LOCAL" />
       <updated>1548568588744</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="读取 问题模板, 生成问题相关参数列表">
+      <created>1548595992363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548595992363</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 27m 57s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="GalaxyUnitsTest - 2019.01.27 at 23h 19m 00s.xml">
+      <configuration name="GalaxyUnitsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 28m 11s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="RomanNumberUtilsTest - 2019.01.27 at 23h 23m 09s.xml">
+      <configuration name="RomanNumberUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 29m 04s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="RomanNumberUtilsTest - 2019.01.27 at 23h 23m 30s.xml">
+      <configuration name="RomanNumberUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 29m 26s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="RomanNumberUtilsTest - 2019.01.27 at 23h 24m 49s.xml">
+      <configuration name="RomanNumberUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 29m 42s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="RomanNumberUtilsTest - 2019.01.27 at 23h 25m 49s.xml">
+      <configuration name="RomanNumberUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 29m 53s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="RomanNumberUtilsTest - 2019.01.27 at 23h 27m 34s.xml">
+      <configuration name="RomanNumberUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 30m 48s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="RomanNumberUtilsTest - 2019.01.27 at 23h 34m 18s.xml">
+      <configuration name="RomanNumberUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 33m 18s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="RomanNumberUtilsTest - 2019.01.27 at 23h 34m 27s.xml">
+      <configuration name="RomanNumberUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 34m 30s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="RomanNumberUtilsTest - 2019.01.27 at 23h 34m 41s.xml">
+      <configuration name="RomanNumberUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileTest - 2019.01.27 at 16h 51m 33s.xml">
-      <configuration name="ReadFileTest" configurationId="JUnit" />
+    <history-entry file="RomanNumberUtilsTest - 2019.01.27 at 23h 41m 48s.xml">
+      <configuration name="RomanNumberUtilsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74833000" />
+    <option name="totallyTimeSpent" value="84233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.22749591" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3502455" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.43371522" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40589198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -529,7 +533,15 @@
     <MESSAGE value="星际数结构调整" />
     <MESSAGE value="星际数 初步测试" />
     <MESSAGE value="星际单位测试, 及星际数可见性调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="星际单位测试, 及星际数可见性调整" />
+    <MESSAGE value="读取 问题模板, 生成问题相关参数列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="读取 问题模板, 生成问题相关参数列表" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="romanNumbers" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -624,21 +636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/测试文件.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QAType.java" />
-    <entry file="jar://E:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -650,16 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="956" column="30" selection-start-line="956" selection-start-column="30" selection-end-line="956" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qa/QAConvertFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,17 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qa/QACalculateFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/qa/QAInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -698,57 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/number/RomanNumberUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getValue#1;class#RomanNumberUtils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/number/RomanNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/number/NumberFormalErrorException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/number/GalaxyUnits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/Global.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/number/GalaxyNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getGalaxyNumberByDefinition#0;class#GalaxyNumbers#0" />
-            <element signature="class#GalaxyNumber#0;class#GalaxyNumbers#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,65 +692,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/number/GalaxyUnitsTest.java">
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="71" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="18" selection-end-column="71" />
+        <state relative-caret-position="273">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/number/RomanNumberUtilsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/qa/QACalculateFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1232">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/number/GalaxyNumbersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#readFile#0;class#ReadFile#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state relative-caret-position="353">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -829,12 +711,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/qa/QAFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="88" column="19" lean-forward="true" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="192" column="22" lean-forward="true" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
+            <element signature="docComment;method#extractQuestionParameters#0;class#QAFunction#0" />
+            <element signature="method#extractQuestionParameters#0;class#QAFunction#0" />
+            <element signature="docComment;method#validate#0;class#QAFunction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/number/GalaxyUnitsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/number/GalaxyNumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number/RomanNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qa/QAConvertFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number/RomanNumberUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/number/RomanNumberUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="66" column="66" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readFile#0;class#ReadFile#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number/GalaxyNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#generateGalaxyNumber#0;class#GalaxyNumbers#0" />
+            <element signature="method#getGalaxyNumberByDefinition#0;class#GalaxyNumbers#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试文件.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionsTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number/GalaxyUnits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

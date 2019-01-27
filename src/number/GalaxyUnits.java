@@ -9,6 +9,10 @@ import java.util.stream.Collectors;
 
 /**
  * 星际单位, 与星际数类似
+ * 定义语句格式为 ga ga ga Gold is 123 Credits
+ * 即 星际数 + 单位(首字母需大写) + is + 十进制数 + 单位
+ *
+ * 基本单位需要保持统一,  不支持多基本单位
  *
  * @author zyzdisciple
  * @date 2019/1/27
@@ -132,7 +136,7 @@ public class GalaxyUnits {
         return gu;
     }
 
-    static class GalaxyUnit {
+    public static class GalaxyUnit {
         /**
          * 单位名称
          */

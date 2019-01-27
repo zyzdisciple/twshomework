@@ -1,5 +1,12 @@
 package qa;
 
+import number.GalaxyNumbers;
+import number.NumberFormalErrorException;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * @author zyzdisciple
  * @date 2019/1/27
@@ -10,9 +17,28 @@ public class QACalculateFunction extends QAFunction {
         super(qa);
     }
 
-
     @Override
     public String answer(String line) {
-        return null;
+        Map<String, String> map = extractQuestionParameters(line);
+        if (map == null || map.isEmpty()) {
+            return qa.getDefaultAnswer();
+        }
+        Map<String, String> fillMap = new HashMap<>(map.size());
+        //仅包含数值转换
+        for (String key : map.keySet()) {
+            int sum = 0;
+            List<GalaxyNumbers.GalaxyNumber> numbers = GalaxyNumbers.getGalaxyNumberByName(map.get(key));
+            if (numbers.size() == 0) {
+                return qa.getDefaultAnswer();
+            } else {
+                try {
+                    sum = GalaxyNumbers.getValue(numbers);
+                } catch (NumberFormalErrorException e) {
+                    return qa.getDefaultAnswer();
+                }
+            }
+            fillMap.put(key, sum + "");
+        }
+        return fillAnswer(map, fillMap);
     }
 }

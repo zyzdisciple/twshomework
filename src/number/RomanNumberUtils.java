@@ -50,14 +50,17 @@ public class RomanNumberUtils {
             if (temp == null) {
                 temp = subtractArray[0].getValue();
                 subtractArray[0] = subtractArray[1];
-                subtractArray[1] = i < L - 1 ? rns[i++] : null;
+                subtractArray[1] = i < L ? rns[i++] : null;
             } else {
                 subtractArray[0] = rns[i++];
-                subtractArray[1] = i < L - 1 ? rns[i++] : null;
+                subtractArray[1] = i < L ? rns[i++] : null;
             }
             sum += temp;
         }
         temp = subtract(subtractArray[0], subtractArray[1]);
+        //如果不能相减, 且小值不为null, 返回结果为null
+        temp = temp == null ? subtractArray[0].getValue() +
+                (subtractArray[1] == null ? 0 : subtractArray[1].getValue()) : temp;
         sum += temp;
         return sum;
     }

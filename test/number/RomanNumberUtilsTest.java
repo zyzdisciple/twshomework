@@ -31,6 +31,14 @@ public class RomanNumberUtilsTest {
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
+
+                {
+                        "IV",
+                        new RomanNumber[]{RomanNumber.ONE, RomanNumber.FIVE},
+                        true,
+                        4
+
+                },
                 {
                         "IVX",
                         new RomanNumber[]{RomanNumber.ONE, RomanNumber.FIVE, RomanNumber.TEN},
