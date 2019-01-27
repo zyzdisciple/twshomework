@@ -1,3 +1,5 @@
+package number;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,7 +11,7 @@ import java.util.Collection;
 import static org.junit.runners.Parameterized.Parameters;
 
 /**
- * RomanNumberUtils Tester.
+ * number.RomanNumberUtils Tester.
  *
  * @author zyzdisciple
  * @version 1.0
@@ -94,7 +96,7 @@ public class RomanNumberUtilsTest {
     }
 
     /**
-     * Method: getValue(RomanNumber... rns)
+     * Method: getValue(number.RomanNumber... rns)
      */
     @Test
     public void testGetValueRns() throws Exception {
@@ -104,7 +106,7 @@ public class RomanNumberUtilsTest {
     }
 
     /**
-     * Method: validate(RomanNumber... rns)
+     * Method: validate(number.RomanNumber... rns)
      */
     @Test
     public void testValidateRns() throws Exception {

@@ -1,9 +1,18 @@
+package common;
+
+import qa.QAInfo;
+
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Properties;
 
 /**
  * 读取文件, 提取需要信息转换为对应字符串
@@ -48,5 +57,29 @@ public class ReadFile {
             }
         }
         return content;
+    }
+
+    /**
+     * 读取问答配置模板
+     */
+    public static List<QAInfo> readQAProperties() {
+        Map<String, Map<String, String>> configMap = new HashMap<>(2);
+        Properties pp = new Properties();
+        InputStream is = null;
+        try {
+            is = new FileInputStream(new File(Global.Q_A_PROPERTIES));
+            pp.load(is);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (is != null) {
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return QAInfo.analyzeProperties(pp);
     }
 }
