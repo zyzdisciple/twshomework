@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 读取文件, 提取有用信息转换为对应字符串
+ * 读取文件, 提取需要信息转换为对应字符串
  *
  * @author zyzdisciple
  * @date 2019/1/26

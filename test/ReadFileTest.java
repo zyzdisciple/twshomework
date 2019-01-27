@@ -12,7 +12,6 @@ public class ReadFileTest {
 
     @Test
     public void testReadFile() throws Exception {
-        //TODO: Test goes here...
         Assert.assertArrayEquals(
                 new String[]{
                         "glob is I",

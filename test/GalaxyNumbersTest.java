@@ -2,7 +2,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author zyzdisciple
@@ -10,30 +11,23 @@ import java.util.Map;
  */
 public class GalaxyNumbersTest {
 
-    public Map<String, GalaxyNumbers.GalaxyNumber> numbers;
-
     @Before
     public void setUp() throws Exception {
-        numbers = GalaxyNumbers.generateGalaxyNumber(ReadFile.readFile("测试文件.txt"));
-    }
-
-    @Test
-    public void generateGalaxyNumber() {
-        Assert.assertArrayEquals(new String[]{
-                "glob",
-                "prok",
-                "pish",
-                "tegj"
-        }, GalaxyNumbers.galaxyNumbers.keySet().toArray());
+        GalaxyNumbers.generateGalaxyNumber(ReadFile.readFile("测试文件.txt"));
     }
 
     @Test
     public void getGalaxyNumberByName() {
-        Assert.assertArrayEquals(new GalaxyNumbers.GalaxyNumber[]{
-                numbers.get("prok"),
-                numbers.get("pish")
-        }, GalaxyNumbers.getGalaxyNumberByName("  prok   pish").toArray());
-        Assert.assertEquals(null, GalaxyNumbers.getGalaxyNumberByName("  prok fish   pish"));
+        List<GalaxyNumbers.GalaxyNumber> numbers = GalaxyNumbers.getGalaxyNumberByName("  prok   pish");
+        List<RomanNumber> romanNumbers = new ArrayList<>(2);
+        for (GalaxyNumbers.GalaxyNumber number : numbers) {
+            romanNumbers.add(number.getRomanNumber());
+        }
+        Assert.assertArrayEquals(new RomanNumber[]{
+                RomanNumber.FIVE,
+                RomanNumber.TEN,
+        }, romanNumbers.toArray());
+        Assert.assertArrayEquals(new GalaxyNumbers.GalaxyNumber[]{}, GalaxyNumbers.getGalaxyNumberByName("  prok fish   pish").toArray());
     }
 
     @Test

@@ -20,8 +20,11 @@ public class GalaxyNumbers {
 
     private GalaxyNumbers() {}
 
-    //保证整个项目内只有这一个地方可以获取到 GalaxyNumber, 无论通过何种方式生成星际数, 保证指向统一引用
-    public static Map<String, GalaxyNumber> galaxyNumbers = new HashMap<>(7);
+    /**
+     * 保证整个项目内只有这一个地方可以保存 GalaxyNumber, 无论通过何种方式生成星际数, 保证指向统一引用
+     * 并且不提供get set方法, 仅能够通过名称换取 星际数实体
+     */
+    private static Map<String, GalaxyNumber> galaxyNumbers = new HashMap<>(7);
 
     /**
      * 通过文件内容生成 星际数
@@ -30,20 +33,23 @@ public class GalaxyNumbers {
      * @param fileContents
      * @return
      */
-    public static Map<String, GalaxyNumber> generateGalaxyNumber(List<String> fileContents) {
-        GalaxyNumber gn;
-        for (String line : fileContents) {
-            //字符串根据空格分隔成n个单词
-            gn = getGalaxyNumberByDefinition(Arrays.asList(line.split(" ")));
-            if (gn != null) {
-                galaxyNumbers.put(gn.galaxyName, gn);
+    public static void generateGalaxyNumber(List<String> fileContents) {
+        if (fileContents != null) {
+            GalaxyNumber gn;
+            for (String line : fileContents) {
+                //字符串根据空格分隔成n个单词
+                gn = getGalaxyNumberByDefinition(Arrays.asList(line.split(" ")));
+                if (gn != null) {
+                    galaxyNumbers.put(gn.galaxyName, gn);
+                }
             }
         }
-        return galaxyNumbers;
     }
 
     /**
      * 根据定义语句获取 GalaxyNumber
+     *
+     * 定义语句格式为 a is I 这种形式
      *
      * 如果获取不到返回null
      *
@@ -96,7 +102,7 @@ public class GalaxyNumbers {
             }
             gn = galaxyNumbers.get(word);
             if (gn == null) {
-                return null;
+                return new ArrayList<>(1);
             } else {
                 numbers.add(gn);
             }
@@ -111,9 +117,8 @@ public class GalaxyNumbers {
      * @return
      */
     public static boolean contains(String word) {
-        return galaxyNumbers.get(word) != null;
+        return galaxyNumbers.containsKey(word);
     }
-
 
     /**
      * 星际数实体类
