@@ -4,6 +4,8 @@
 
 项目分析见目录下 项目分析.md
 
+项目git地址: [https://github.com/zyzdisciple/twshomework](https://github.com/zyzdisciple/twshomework)
+
 ## 功能说明
 
 1. 按照配置文件(测试文件.txt) 在符合规则的情况下, 加载 星际数, 星际单位, 星际单位与罗马数, 十进制数 之间的转换规则.
