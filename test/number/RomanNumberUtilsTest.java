@@ -94,22 +94,22 @@ public class RomanNumberUtilsTest {
     }
 
     /**
-     * Method: getValue(String romanNumber)
+     * Method: getDecimalValue(String romanNumber)
      */
     @Test
     public void testGetValueRomanNumber() throws Exception {
         if (sum != null) {
-            Assert.assertEquals(sum, RomanNumberUtils.getValue(strNumber));
+            Assert.assertEquals(sum, RomanNumberUtils.getDecimalValue(strNumber));
         }
     }
 
     /**
-     * Method: getValue(number.RomanNumber... rns)
+     * Method: getDecimalValue(number.RomanNumber... rns)
      */
     @Test
     public void testGetValueRns() throws Exception {
         if (sum != null) {
-            Assert.assertEquals(sum, RomanNumberUtils.getValue(rns));
+            Assert.assertEquals(sum, RomanNumberUtils.getDecimalValue(rns));
         }
     }
 

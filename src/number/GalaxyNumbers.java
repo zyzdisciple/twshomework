@@ -1,5 +1,7 @@
 package number;
 
+import common.StringUtil;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -89,7 +91,7 @@ public class GalaxyNumbers {
     }
 
     /**
-     * 将单词转换为 星际数, 如果存在不能够转换为 星际数的单词, 则整体返回null
+     * 将单词转换为 星际数, 如果存在不能够转换为 星际数的单词, 则返回空列表
      *
      * @param words
      * @return
@@ -100,10 +102,7 @@ public class GalaxyNumbers {
         }
         List<GalaxyNumber> numbers = new ArrayList<>(6);
         GalaxyNumber gn;
-        for (String word : words.split(" ")) {
-            if (word.trim().length() == 0) {
-                continue;
-            }
+        for (String word : StringUtil.removeBlankString(words)) {
             gn = galaxyNumbers.get(word);
             if (gn == null) {
                 return new ArrayList<>(1);
@@ -136,7 +135,7 @@ public class GalaxyNumbers {
         for (GalaxyNumber number : numbers) {
             romanNumbers.add(number.getRomanNumber());
         }
-        return RomanNumberUtils.getValue(romanNumbers.toArray(new RomanNumber[]{}));
+        return RomanNumberUtils.getDecimalValue(romanNumbers.toArray(new RomanNumber[]{}));
     }
 
     /**
@@ -153,22 +152,12 @@ public class GalaxyNumbers {
             this.romanNumber = romanNumber;
         }
 
-
-
         public RomanNumber getRomanNumber() {
             return romanNumber;
         }
 
-        public void setRomanNumber(RomanNumber romanNumber) {
-            this.romanNumber = romanNumber;
-        }
-
         public String getGalaxyName() {
             return galaxyName;
-        }
-
-        public void setGalaxyName(String galaxyName) {
-            this.galaxyName = galaxyName;
         }
     }
 

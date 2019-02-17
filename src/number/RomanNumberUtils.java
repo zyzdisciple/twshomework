@@ -20,8 +20,8 @@ public class RomanNumberUtils {
      * @return
      * @throws NumberFormalErrorException
      */
-    public static int getValue(String romanNumber) throws NumberFormalErrorException {
-        return getValue(string2Numbers(romanNumber));
+    public static int getDecimalValue(String romanNumber) throws NumberFormalErrorException {
+        return getDecimalValue(string2Numbers(romanNumber));
     }
 
     /**
@@ -31,7 +31,7 @@ public class RomanNumberUtils {
      * @param rns
      * @return
      */
-    public static int getValue(RomanNumber... rns) throws NumberFormalErrorException {
+    public static int getDecimalValue(RomanNumber... rns) throws NumberFormalErrorException {
         if (!validate(rns)) {
             throw new NumberFormalErrorException();
         }
@@ -76,10 +76,11 @@ public class RomanNumberUtils {
      * @return
      */
     private static Integer subtract(RomanNumber smaller, RomanNumber larger) {
-        if (larger == null) {
-            return smaller == null ? 0 : smaller.getValue();
-        }
-        return smaller.getSubtractStr().contains(larger.getName()) ? larger.getValue() - smaller.getValue() : null;
+
+        return larger == null ?
+                smaller == null ?
+                        0 : smaller.getValue()
+                : smaller.getSubtractStr().contains(larger.getName()) ? larger.getValue() - smaller.getValue() : null;
     }
 
     /**

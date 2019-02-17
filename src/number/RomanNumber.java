@@ -81,10 +81,13 @@ public enum RomanNumber{
 
     /**
      * 如果传入为null表示保持原值
+     *
      * @param rn
      * @return
      */
     public int subtract(RomanNumber rn) {
+        //TODO
+        //在这里同样需要考虑数值校验的问题， 也可以将数值校验问题， 放在外部进行
         return this.value - (rn == null ? 0 : rn.value);
     }
 

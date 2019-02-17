@@ -19,11 +19,11 @@ public class StringUtil {
      * @param words
      * @return
      */
-    public static String[] removeBlackString(String words) {
+    public static String[] removeBlankString(String words) {
         if (words == null) {
             return new String[]{};
         }
-        return removeBlackString(Arrays.asList(words.split(" ")));
+        return removeBlankString(Arrays.asList(words.split(" ")));
     }
 
     /**
@@ -32,7 +32,7 @@ public class StringUtil {
      * @param words
      * @return
      */
-    public static String[] removeBlackString(List<String> words) {
+    public static String[] removeBlankString(List<String> words) {
         if (words == null) {
             return new String[]{};
         }

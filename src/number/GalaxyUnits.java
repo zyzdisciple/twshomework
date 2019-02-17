@@ -125,7 +125,7 @@ public class GalaxyUnits {
             }
 
             try {
-                galaxyValue = RomanNumberUtils.getValue(numbers.toArray(new RomanNumber[]{}));
+                galaxyValue = RomanNumberUtils.getDecimalValue(numbers.toArray(new RomanNumber[]{}));
             } catch (NumberFormalErrorException e) {
                 //当数据格式不符合要求, 则返回null
                 return null;

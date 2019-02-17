@@ -33,8 +33,8 @@ public abstract class QAFunction {
         if (!validate(question, line)) {
             return null;
         }
-        String[] qa = StringUtil.removeBlackString(question);
-        String[] lw = StringUtil.removeBlackString(line);
+        String[] qa = StringUtil.removeBlankString(question);
+        String[] lw = StringUtil.removeBlankString(line);
         boolean hasParameter = false;
         //存储顺序为 参数位置, 非参数位置
         //e.g. is #a# b #c# 存储值应为 1 2 3
@@ -138,8 +138,8 @@ public abstract class QAFunction {
         if (target == null || line == null) {
             return false;
         }
-        String[] qWords = StringUtil.removeBlackString(target);
-        String[] lWords = StringUtil.removeBlackString(line);
+        String[] qWords = StringUtil.removeBlankString(target);
+        String[] lWords = StringUtil.removeBlankString(line);
         String qWord, lWord;
         //表示 当前单词/前一个单词 是否为参数单词
         int parameterNumber = 0;
