@@ -1,5 +1,6 @@
 package qa;
 
+import number.GalaxyNumber;
 import number.GalaxyNumbers;
 import number.NumberFormalErrorException;
 
@@ -27,7 +28,7 @@ public class QACalculateFunction extends QAFunction {
         //仅包含数值转换
         for (String key : map.keySet()) {
             int sum = 0;
-            List<GalaxyNumbers.GalaxyNumber> numbers = GalaxyNumbers.getGalaxyNumberByName(map.get(key));
+            List<GalaxyNumber> numbers = GalaxyNumbers.getGalaxyNumberByName(map.get(key));
             if (numbers.size() == 0) {
                 return qa.getDefaultAnswer();
             } else {

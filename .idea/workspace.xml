@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c922ef-7284-447a-8812-89a944445d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/number/GalaxyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/GalaxyUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/StringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/number/GalaxyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/GalaxyNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/number/GalaxyUnits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/GalaxyUnits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/number/RomanNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/RomanNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/number/RomanNumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/RomanNumberUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qa/QAFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qa/QAFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/number/RomanNumberUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/number/RomanNumberUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qa/QACalculateFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qa/QACalculateFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qa/QAConvertFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qa/QAConvertFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/number/GalaxyNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/number/GalaxyNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/number/GalaxyUnitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/number/GalaxyUnitsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,25 +39,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="20807" />
+          <entry key="java" value="21159" />
           <entry key="md" value="142" />
           <entry key="properties" value="431" />
-          <entry key="txt" value="179" />
+          <entry key="txt" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="20807" />
+          <entry key="JAVA" value="21159" />
           <entry key="Markdown" value="142" />
-          <entry key="PLAIN_TEXT" value="179" />
+          <entry key="PLAIN_TEXT" value="193" />
           <entry key="Properties" value="431" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="138" />
+          <entry key="java" value="150" />
           <entry key="md" value="4" />
           <entry key="properties" value="7" />
           <entry key="txt" value="9" />
@@ -66,7 +66,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="138" />
+          <entry key="JAVA" value="150" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="7" />
@@ -77,48 +77,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/ReadFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#readFile#0;class#ReadFile#0" />
-                <element signature="method#readQAProperties#0;class#ReadFile#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/number/RomanNumberUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2508">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/qa/QAInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="950">
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/number/NumberFormalErrorException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -126,17 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/number/RomanNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="1548">
               <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/qa/QACalculateFunction.java">
+        <entry file="file://$PROJECT_DIR$/src/qa/QAConvertFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="338">
+              <caret line="87" column="81" selection-start-line="87" selection-start-column="81" selection-end-line="87" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,10 +110,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/qa/QAFunction.java">
+        <entry file="file://$PROJECT_DIR$/test/number/GalaxyUnitsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1110">
-              <caret line="130" column="4" lean-forward="true" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/number/GalaxyUnits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,10 +131,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/StringUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/number/GalaxyUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="198">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/qa/QACalculateFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,24 +152,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/number/GalaxyNumbers.java">
+        <entry file="file://$PROJECT_DIR$/test/number/GalaxyNumbersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="152" column="9" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
+            <state relative-caret-position="236">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4306#4307#0" expanded="true" />
-                <element signature="e#4347#4348#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/qa/QAFunctionFactory.java">
+        <entry file="jar://E:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="133">
+              <caret line="1009" column="16" selection-start-line="1009" selection-start-column="16" selection-end-line="1009" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -196,16 +177,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>values</find>
+      <find>BASE_UNIT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -246,20 +228,25 @@
         <option value="$PROJECT_DIR$/src/qa/QAFunctionFactory.java" />
         <option value="$PROJECT_DIR$/src/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/qa/QAInfo.java" />
-        <option value="$PROJECT_DIR$/src/qa/QACalculateFunction.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/qa/QAFunction.java" />
-        <option value="$PROJECT_DIR$/src/qa/QAConvertFunction.java" />
         <option value="$PROJECT_DIR$/questionsTest.txt" />
         <option value="$PROJECT_DIR$/aqconfig.properties" />
         <option value="$PROJECT_DIR$/src/common/Global.java" />
         <option value="$PROJECT_DIR$/src/common/ReadFile.java" />
-        <option value="$PROJECT_DIR$/src/number/GalaxyUnits.java" />
         <option value="$PROJECT_DIR$/src/common/StringUtil.java" />
         <option value="$PROJECT_DIR$/test/number/RomanNumberUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/number/RomanNumberUtils.java" />
-        <option value="$PROJECT_DIR$/src/number/GalaxyNumbers.java" />
         <option value="$PROJECT_DIR$/src/number/RomanNumber.java" />
+        <option value="$PROJECT_DIR$/src/number/GalaxyNumber.java" />
+        <option value="$PROJECT_DIR$/src/qa/QACalculateFunction.java" />
+        <option value="$PROJECT_DIR$/test/number/GalaxyNumbersTest.java" />
+        <option value="$PROJECT_DIR$/src/number/GalaxyNumbers.java" />
+        <option value="$PROJECT_DIR$/src/number/GalaxyUnits.java" />
+        <option value="$PROJECT_DIR$/src/number/EarthUnit.java" />
+        <option value="$PROJECT_DIR$/src/number/GalaxyUnit.java" />
+        <option value="$PROJECT_DIR$/src/qa/QAConvertFunction.java" />
+        <option value="$PROJECT_DIR$/test/number/GalaxyUnitsTest.java" />
       </list>
     </option>
   </component>
@@ -465,7 +452,7 @@
       <workItem from="1548491664066" duration="25051000" />
       <workItem from="1548556720024" duration="23626000" />
       <workItem from="1548582080725" duration="22724000" />
-      <workItem from="1550388623582" duration="4041000" />
+      <workItem from="1550388623582" duration="6022000" />
     </task>
     <task id="LOCAL-00001" summary="项目初步分析">
       <created>1548402800939</created>
@@ -544,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548605407957</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="部分方法优化，方法名更改">
+      <created>1550393628916</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550393628916</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -580,19 +574,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88381000" />
+    <option name="totallyTimeSpent" value="90362000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22768533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22768533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.25859246" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.25859246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40589198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -601,7 +595,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.40752864" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -628,7 +622,8 @@
     <MESSAGE value="星际单位测试, 及星际数可见性调整" />
     <MESSAGE value="读取 问题模板, 生成问题相关参数列表" />
     <MESSAGE value="完成版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成版本" />
+    <MESSAGE value="部分方法优化，方法名更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分方法优化，方法名更改" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -738,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="956" column="30" selection-start-line="956" selection-start-column="30" selection-end-line="956" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Program Files/Java/jdk1.8.0_191/jre/lib/deploy.jar!/com/sun/deploy/util/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -769,40 +757,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/number/GalaxyUnitsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qa/QAConvertFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/Global.java" />
     <entry file="file://$PROJECT_DIR$/测试文件.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/number/GalaxyUnits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,27 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qa/QAInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/number/NumberFormalErrorException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qa/QAFunctionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -896,52 +838,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/number/GalaxyNumbersTest.java">
+    <entry file="file://$PROJECT_DIR$/src/qa/QAFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="-912">
+          <caret line="130" column="4" lean-forward="true" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/number/GalaxyNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/qa/QAFunctionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="152" column="9" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
+        <state relative-caret-position="114">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="1009" column="16" selection-start-line="1009" selection-start-column="16" selection-end-line="1009" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qa/QACalculateFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4306#4307#0" expanded="true" />
-            <element signature="e#4347#4348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/number/GalaxyNumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number/GalaxyNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number/GalaxyNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2404">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qa/QAInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/number/RomanNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="1548">
           <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qa/QACalculateFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/number/EarthUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number/GalaxyUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number/GalaxyUnits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qa/QAFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/qa/QAConvertFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1110">
-          <caret line="130" column="4" lean-forward="true" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+        <state relative-caret-position="338">
+          <caret line="87" column="81" selection-start-line="87" selection-start-column="81" selection-end-line="87" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/number/GalaxyUnitsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
         </state>
       </provider>
     </entry>

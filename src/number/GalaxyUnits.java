@@ -120,8 +120,8 @@ public class GalaxyUnits {
         if (flag) {
             int galaxyValue;
             List<RomanNumber> numbers = new ArrayList<>(6);
-            for (GalaxyNumbers.GalaxyNumber number : GalaxyNumbers.getGalaxyNumberByName(galaxyNumbers.toString())) {
-                numbers.add(number.getRomanNumber());
+            for (GalaxyNumber number : GalaxyNumbers.getGalaxyNumberByName(galaxyNumbers.toString())) {
+                numbers.add(number.romanNumber);
             }
 
             try {
@@ -134,30 +134,5 @@ public class GalaxyUnits {
             BASE_UNIT.unitName = baseUnitName;
         }
         return gu;
-    }
-
-    public static class GalaxyUnit {
-        /**
-         * 单位名称
-         */
-        private String unitName;
-
-        /**
-         * 与可识别单位的换算比例
-         */
-        private Double proportion;
-
-        private GalaxyUnit(String unitName, double proportion) {
-            this.unitName = unitName;
-            this.proportion = proportion;
-        }
-
-        public String getUnitName() {
-            return unitName;
-        }
-
-        public Double getProportion() {
-            return proportion;
-        }
     }
 }

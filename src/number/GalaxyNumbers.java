@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * 星际数
+ * 星际数集合
  *
  * 星际数与罗马数并不要求一一对应, 为多对一. 可以存在多个星际数 对应同一个罗马数.
  *
@@ -133,32 +133,9 @@ public class GalaxyNumbers {
     public static int getValue(List<GalaxyNumber> numbers) throws NumberFormalErrorException {
         List<RomanNumber> romanNumbers = new ArrayList<>(numbers.size());
         for (GalaxyNumber number : numbers) {
-            romanNumbers.add(number.getRomanNumber());
+            romanNumbers.add(number.romanNumber);
         }
         return RomanNumberUtils.getDecimalValue(romanNumbers.toArray(new RomanNumber[]{}));
-    }
-
-    /**
-     * 星际数实体类
-     */
-    public static class GalaxyNumber {
-
-        private RomanNumber romanNumber;
-
-        private String galaxyName;
-
-        private GalaxyNumber(String galaxyName, RomanNumber romanNumber) {
-            this.galaxyName = galaxyName;
-            this.romanNumber = romanNumber;
-        }
-
-        public RomanNumber getRomanNumber() {
-            return romanNumber;
-        }
-
-        public String getGalaxyName() {
-            return galaxyName;
-        }
     }
 
 }

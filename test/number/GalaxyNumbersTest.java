@@ -21,16 +21,16 @@ public class GalaxyNumbersTest {
 
     @Test
     public void getGalaxyNumberByName() {
-        List<GalaxyNumbers.GalaxyNumber> numbers = GalaxyNumbers.getGalaxyNumberByName("  prok   pish");
+        List<GalaxyNumber> numbers = GalaxyNumbers.getGalaxyNumberByName("  prok   pish");
         List<RomanNumber> romanNumbers = new ArrayList<>(2);
-        for (GalaxyNumbers.GalaxyNumber number : numbers) {
-            romanNumbers.add(number.getRomanNumber());
+        for (GalaxyNumber number : numbers) {
+            romanNumbers.add(number.romanNumber);
         }
         Assert.assertArrayEquals(new RomanNumber[]{
                 RomanNumber.FIVE,
                 RomanNumber.TEN,
         }, romanNumbers.toArray());
-        Assert.assertArrayEquals(new GalaxyNumbers.GalaxyNumber[]{}, GalaxyNumbers.getGalaxyNumberByName("  prok fish   pish").toArray());
+        Assert.assertArrayEquals(new GalaxyNumber[]{}, GalaxyNumbers.getGalaxyNumberByName("  prok fish   pish").toArray());
     }
 
     @Test

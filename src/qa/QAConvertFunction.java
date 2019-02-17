@@ -1,5 +1,6 @@
 package qa;
 
+import number.GalaxyNumber;
 import number.GalaxyNumbers;
 import number.GalaxyUnits;
 import number.NumberFormalErrorException;
@@ -30,7 +31,7 @@ public class QAConvertFunction extends QAFunction {
         for (String key : map.keySet()) {
             switch (key) {
                 case "baseUnit":
-                    value = GalaxyUnits.BASE_UNIT.getUnitName();
+                    value = GalaxyUnits.BASE_UNIT.unitName;
                     break;
                 case "galaxyNumber":
                     value = galaxyNumber2bigDecimal(map.get(key), map.get("galaxyUnit"));
@@ -73,7 +74,7 @@ public class QAConvertFunction extends QAFunction {
             return null;
         }
 
-        List<GalaxyNumbers.GalaxyNumber> numbers = GalaxyNumbers.getGalaxyNumberByName(galaxyNumber);
+        List<GalaxyNumber> numbers = GalaxyNumbers.getGalaxyNumberByName(galaxyNumber);
         double sum;
         if (numbers.size() == 0) {
             return null;
@@ -84,7 +85,7 @@ public class QAConvertFunction extends QAFunction {
                 return null;
             }
         }
-        sum = sum * GalaxyUnits.getGalaxyUnitByName(galaxyUnit.trim()).getProportion();
+        sum = sum * GalaxyUnits.getGalaxyUnitByName(galaxyUnit.trim()).proportion;
         return sum + "";
     }
 }

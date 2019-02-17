@@ -21,8 +21,8 @@ public class GalaxyUnitsTest {
 
     @Test
     public void getGalaxyUnitByName() {
-        GalaxyUnits.GalaxyUnit unit = GalaxyUnits.getGalaxyUnitByName("Silver");
-        Assert.assertEquals(17, unit.getProportion(), 0.000);
+        GalaxyUnit unit = GalaxyUnits.getGalaxyUnitByName("Silver");
+        Assert.assertEquals(17, unit.proportion, 0.000);
     }
 
     @Test
