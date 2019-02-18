@@ -100,7 +100,7 @@ public abstract class QAFunction {
      * @param realIndex 实际语句索引
      * @return
      */
-    protected Map<String, String> getParameterList(String[] template, List<Integer> tempIndex, String[] realWords, List<Integer> realIndex) {
+    private Map<String, String> getParameterList(String[] template, List<Integer> tempIndex, String[] realWords, List<Integer> realIndex) {
         Map<String, String> map = new HashMap<>();
         String key;
         StringBuilder sb;
@@ -129,7 +129,7 @@ public abstract class QAFunction {
     }
 
     /**
-     * 检验问题与传入值是否符合模板要求
+     * 检验问题与传入值是否符合问题模板要求
      *
      * @param line
      * @return

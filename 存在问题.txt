@@ -1,0 +1,6 @@
+设计：
+    不合理：
+	ReadFile readQAProperties
+
+	QAInfo.analyzeProperties
+
